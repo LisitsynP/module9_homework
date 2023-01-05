@@ -1,0 +1,40 @@
+body {
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+}
+.form {
+    width: 500px;
+    height: 200px;
+    background-color: rgba(28, 92, 144, 0.68);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+#input {
+    margin-bottom: 10px;
+}
+#btn {
+    margin-top: 10px;
+    width: 70px;
+    height: 25px;
+    background-color: blueviolet;
+}
+.res {
+    display: flex;
+    justify-content: center;
+    margin-top: 25px;
+  flex-wrap: wrap;
+  width: 500px;
+}
+.card {
+    width: 200px;
+    margin: 20px;
+  }
+  
+  .card-image {
+    display: block;
+    width: 200px;
+    height: 150px;
+  }
